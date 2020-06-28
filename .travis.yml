@@ -13,10 +13,11 @@ deploy:
   provider: elasticbeanstalk
   region: "us-west-2"
   app: "mindblog"
-  env: "mindblog-dev"
+  env: "mindblog-env"
   bucket_name: "elasticbeanstalk-us-west-2-263596848727"
   bucket_path: "mindblog"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
+ s
