@@ -12,11 +12,14 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-west-2"
-  app: "blog"
-  env: "blog-prod"
+  app: "mindblog"
+  env: "mindblog-dev"
   bucket_name: "elasticbeanstalk-us-west-2-263596848727"
   bucket_path: "blog"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
+
+
+  Mindblog-env.eba-v3imvjaz.us-west-2.elasticbeanstalk.com 
