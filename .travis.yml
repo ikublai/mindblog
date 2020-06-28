@@ -15,7 +15,7 @@ deploy:
   app: "mindblog"
   env: "mindblog-dev"
   bucket_name: "elasticbeanstalk-us-west-2-263596848727"
-  bucket_path: "blog"
+  bucket_path: "mindblog"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
