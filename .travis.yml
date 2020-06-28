@@ -1,0 +1,22 @@
+language: generic 
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t ikublai/blog -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true ikublai/blog npm run test
+
+deploy:
+  provider: elasticbeanstalk
+  region: "us-west-2"
+  app: "blog"
+  env: "blog-prod"
+  bucket_name: "elasticbeanstalk-us-west-2-263596848727"
+  bucket_path: "blog"
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
