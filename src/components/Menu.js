@@ -19,11 +19,11 @@ const Menu = [
     label: "Cards",
     pathname: "/cards"
   },
-  {
-    label: "Github",
-    pathname: "https://github.com/alexanmtz/material-sense",
-    external: true
-  }
+  // {
+  //   label: "Github",
+  //   pathname: "https://github.com/ikublai/material-sense",
+  //   external: true
+  // }
 
 ];
 

@@ -204,7 +204,7 @@ class Dashboard extends Component {
                       Dashboard
                     </Typography>
                     <Typography variant="body1">
-                      Adjust and play with our sliders.
+                      Nasdaq crosses 10000 on June 8th for new highs. June 23rd, it notched a new high of 10131! What's next? Mind boggling.
                     </Typography>
                   </div>
                   <div>
