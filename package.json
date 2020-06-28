@@ -1,8 +1,8 @@
 {
-  "name": "material-sense",
+  "name": "mindblog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexanmtz.github.io/material-sense",
+  "homepage": "https://mindblog.com",
   "dependencies": {
     "@material-ui/core": "^4.1.1",
     "@material-ui/icons": "^4.2.0",
